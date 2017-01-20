@@ -1,0 +1,33 @@
+<?php
+
+    return array(
+
+        'opros/([0-9]+)' => 'opros/index/$1',
+        'blog/page-([0-9]+)' => 'blog/blog/$1',
+        'blog/([a-zA-z-]+)' => 'blog/index/$1',
+        'blog' => 'blog/blog',
+        'admin/editService/([0-9]+)' =>'admin/editService/$1',
+        'admin/news/page-([0-9]+)' => 'admin/newsList/$1',
+        'admin/message/page-([0-9]+)' => 'admin/messageList/$1',
+        'admin/opros/page-([0-9]+)' => 'admin/oprosList/$1',
+        'admin/news/edit/([0-9]+)' =>'admin/newsListEdit/$1',
+        'admin/slideEdit/([0-9]+)' =>'admin/slideEdit/$1',
+        'admin/deleteNews/([0-9]+)' =>'admin/deleteNews/$1',
+        'admin/deleteOpros/([0-9]+)' =>'admin/deleteOpros/$1',
+        'admin/editOpros/([0-9]+)' =>'admin/editOpros/$1',
+        'admin/deleteSlide/([0-9]+)' =>'admin/deleteSlide/$1',
+        'admin/news' =>'admin/newsList',
+        'admin/opros' =>'admin/oprosList',
+        'admin/message' => 'admin/messageList',
+        'admin/addNews' =>'admin/addNews',
+        'admin/addOpros' =>'admin/addOpros',
+        'admin/addSlide' =>'admin/addSlide',
+        'admin' => 'admin/index',
+        'login' => 'admin/login',
+        'aboutMeForm.php' => 'admin/aboutMeForm',
+        'messageOpros.php' => 'opros/message',
+        'formblog.php' => 'blog/form',
+        'form.php' => 'site/form',
+        'logout' => 'admin/logout',
+        '' => 'site/index',
+    );
